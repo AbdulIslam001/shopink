@@ -7,9 +7,16 @@ class DashBoard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size=MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
+        actions: [
+          const Icon(Icons.notification_important),
+          SizedBox(
+            width: size.width/20,
+          ),
+        ],
         leading:const Icon(Icons.align_horizontal_left_sharp),
         title: Text("Shopink"),
       ),
