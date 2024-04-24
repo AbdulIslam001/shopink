@@ -18,7 +18,7 @@ class DashBoard extends StatelessWidget {
           ),
         ],
         leading:const Icon(Icons.align_horizontal_left_sharp),
-        title: Text("Shopink"),
+        title:const Text("Shopink"),
       ),
     );
   }
